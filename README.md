@@ -1,10 +1,12 @@
+[Hugging Face](https://huggingface.co/datasets/jonathan-roberts1/RSI-CB256/viewer/default/train?f[label_2]
+
 # SatelliteVision-CNN-PyTorch
 
 This repository implements a **Convolutional Neural Network (CNN)** for satellite image classification using **PyTorch**. The project focuses on distinguishing visually similar satellite images from different land use/land cover classes, offering a **realistic classification challenge**.
 
 ## Key Features
 - **Custom CNN Model**: Achieved **98% accuracy** after 10 epochs.
-- **Pretrained ResNet50**: Reached **100% accuracy** after 10 epochs.
+- **Pretrained ResNet50**: Reached **100% accuracy** after 2 epochs.
 - **Efficient Dataset Handling**: Dataset loading, transformation, and filtering to target specific classes.
 
 ---

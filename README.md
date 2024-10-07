@@ -1,6 +1,4 @@
-[Hugging Face](https://huggingface.co/datasets/jonathan-roberts1/RSI-CB256/viewer/default/train?f[label_2]
-
-# SatelliteVision-CNN-PyTorch
+# 🛰 SatelliteVision-CNN-PyTorch
 
 This repository implements a **Convolutional Neural Network (CNN)** for satellite image classification using **PyTorch**. The project focuses on distinguishing visually similar satellite images from different land use/land cover classes, offering a **realistic classification challenge**.
 

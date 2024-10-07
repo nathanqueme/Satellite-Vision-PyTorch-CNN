@@ -41,6 +41,7 @@ To create a **realistic challenge**, classes with overlapping visual features we
 
 ### Dataset Distribution Overview
 A **1000 image threshold** was set to ensure enough data per class for effective training. Below is the dataset distribution after applying this filter:
+
 ![Dataset Distribution](images/data_distribution_pie.png)
 
 ---

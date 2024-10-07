@@ -33,33 +33,15 @@ After **Exploratory Data Analysis (EDA)**, we selected a subset of **4 classes**
 
 ## Problem Definition
 
-To create a **realistic challenge**, we selected classes with overlapping visual features, such as:
+To create a **realistic challenge**, classes with overlapping visual features were selected, such as:
 - **Dry farm** (Class 28): Yellow-dominant.
 - **Sparse forest** (Class 16): Yellow-green mix.
 - **Forest** (Class 10): Predominantly green.
 - **Sea** (Class 23): Various shades of green.
 
-These classes share similarities in both color and shape, requiring the model to make fine distinctions.
-
-### Dataset Distribution with Threshold (1000 Images):
+### Dataset Distribution Overview
+A **1000 image threshold** was set to ensure enough data per class for effective training. Below is the dataset distribution after applying this filter:
 ![Dataset Distribution](images/data_distribution_pie.png)
 
 ---
 
-## Model Performance
-
-| Model             | Accuracy    | Epochs  |
-|-------------------|-------------|---------|
-| Custom CNN        | 98%         | 10      |
-| Pretrained ResNet50 | 100%       | 10      |
-
-Both models performed well in this **realistic classification task**, with the fine-tuned ResNet50 achieving perfect accuracy by the 10th epoch.
-
----
-
-## Running the Code
-
-To train and evaluate the model, run the following commands:
-
-```bash
-python train.py

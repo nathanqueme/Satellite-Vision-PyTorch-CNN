@@ -1,4 +1,4 @@
-# 🛰 SatelliteVision-CNN-PyTorch
+# 🛰 Satellite-Vision-PyTorch-CNN
 
 This repository implements a **Convolutional Neural Network (CNN)** for satellite image classification using **PyTorch**. The project focuses on distinguishing visually similar satellite images from different land use/land cover classes, offering a **realistic classification challenge**.
 
